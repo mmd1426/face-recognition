@@ -14,4 +14,4 @@
 
 شما می‌توانید با ارائه گزارش اشکالات و ارسال درخواست‌های تغییر (Pull Requests) در بهبود این پروژه مشارکت کنید.
 
-![Digtal-clock](https://github.com/MMD1426/WaterMeter-Reader/blob/main/Screenshot%202024-08-15%20133256.png)
+![Digtal-clock](https://github.com/MMD1426/Face-Recognition/blob/main/Screenshot.png)
