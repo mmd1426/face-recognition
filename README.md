@@ -1,17 +1,17 @@
 # Face-Recognition
 
-## معرفی
+## Introduction
 
-این پروژه با هدف تشخیص چهره با استفاده از کتابخانه `face_recognition` طراحی شده است که ابزاری ساده و قدرتمند برای شناسایی و کار با چهره‌های انسانی ارائه می‌دهد. در این پروژه از `pickle` برای ذخیره و بارگذاری کدگذاری‌های چهره استفاده شده تا فرایند تشخیص چهره بین چندین تصویر به صورت کارآمد انجام شود.
+This project focuses on facial recognition using the `face_recognition` library, a simple yet powerful tool for identifying and working with human faces. In this project, `pickle` is used for storing and loading face encodings, ensuring efficient face recognition across multiple images.
 
-## ویژگی‌ها
+## Features
 
-- **تشخیص چهره با `face_recognition`**: شناسایی و تشخیص چهره‌های انسانی در تصاویر و ویدیوها با استفاده از این کتابخانه.
-- **ذخیره‌سازی با `pickle`**: ذخیره و بارگذاری کدگذاری‌های چهره برای استفاده مجدد و بهینه‌سازی در پردازش‌های بعدی.
-- **دقت بالا**: توانایی شناسایی دقیق چهره‌ها حتی در شرایط مختلف نوری و زوایای متفاوت.
+- **Facial Recognition with `face_recognition`**: Detect and recognize human faces in images and videos using this library.
+- **Storage with `pickle`**: Store and load face encodings for reuse, optimizing the process in subsequent recognitions.
+- **High Accuracy**: Accurate recognition of faces, even under varying lighting conditions and angles.
 
-## مشارکت
+## Contribution
 
-شما می‌توانید با ارائه گزارش اشکالات و ارسال درخواست‌های تغییر (Pull Requests) در بهبود این پروژه مشارکت کنید.
+You are welcome to contribute by reporting bugs or submitting pull requests to improve the project.
 
-![Digtal-clock](https://github.com/MMD1426/Face-Recognition/blob/main/Screenshot.png)
+![Digital-clock](https://github.com/MMD1426/Face-Recognition/blob/main/Screenshot.png)
