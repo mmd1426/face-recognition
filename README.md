@@ -13,5 +13,3 @@ This project focuses on facial recognition using the `face_recognition` library,
 ## Contribution
 
 You are welcome to contribute by reporting bugs or submitting pull requests to improve the project.
-
-![Digital-clock](https://github.com/MMD1426/Face-Recognition/blob/main/Screenshot.png)
