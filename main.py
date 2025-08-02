@@ -1,8 +1,9 @@
+# Import libraries
 import pickle
 import cv2
 import face_recognition
 
-
+# Drawing border in around face
 def draw_border(img, pt1, pt2, color, thickness, r, d):
     x1,y1 = pt1
     x2,y2 = pt2
@@ -28,22 +29,26 @@ def draw_border(img, pt1, pt2, color, thickness, r, d):
     cv2.ellipse(img, (x2 - r, y2 - r), (r, r), 0, 0, 90, color, thickness)
 
 
-
-data = pickle.load(open(r'D:\Project-VSCode\face-recognition\model.pkl', 'rb'))
+# Load model
+data = pickle.load(open(r'/src/model/model.pkl', 'rb'))
 
 encodings = data['encodings']
 names = data['names']
 
-cascade = cv2.CascadeClassifier(r'D:\Project-VSCode\emotion_idenfity\haarcascade_frontalface_default.xml')
+cascade = cv2.CascadeClassifier(r'/src/haarcascade/haarcascade_frontalface_default.xml')
 
+# Load webcam
 cap = cv2.VideoCapture(0)
 
 while True:
 
+    # Read frame
     ret,frame = cap.read()
 
+    # Detect faces in frame webcam
     face_detection = cascade.detectMultiScale(frame,1.3, 15)
 
+    # Actions in frame
     for (x,y,w,h) in face_detection:
         draw_border(frame,(x,y),(x+w,y+h),(0,255,0),2,15,5)
         face = frame[y:y+h,x:x+w]
